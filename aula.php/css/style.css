@@ -1,0 +1,81 @@
+/* Definindo a família de fontes e a cor de fundo da página */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #4f86c6; /* Alterada para um azul um pouco mais escuro */
+}
+
+/* Definindo a caixa com um layout flexível e centralizando o conteúdo */
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 420px; /* Aumentada um pouco a largura */
+    height: 460px;
+    padding: 40px; /* Reduzido o padding */
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Aumentada a opacidade da borda */
+    margin: 20px auto; /* Adicionado um pouco de margem superior e inferior */
+    background-color: rgba(240, 248, 255, 0.1); /* Aumentada a opacidade do fundo */
+}
+
+/* Estilização do título principal */
+h1 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 80px; /* Reduzido o espaçamento inferior */
+}
+
+/* Estilização do subtítulo */
+h2 {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 80px; /* Reduzido o espaçamento superior */
+}
+
+/* Estilização do formulário */
+form {
+    margin-bottom: 15px; /* Reduzido o espaçamento inferior */
+    text-align: center;
+}
+
+/* Estilização dos rótulos do formulário */
+label {
+    color: #ffffff;
+    display: inline-block;
+    width: 110px; /* Aumentada a largura */
+    text-align: right;
+}
+
+/* Estilização dos campos de entrada */
+input {
+    margin-bottom: 12px; /* Aumentado o espaçamento inferior */
+}
+
+/* Estilização da tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px; /* Aumentado o espaçamento superior */
+}
+
+/* Estilização das células da tabela */
+table, th, td {
+    border: 1px solid #333; /* Alterada a cor da borda para um cinza escuro */
+}
+
+th, td {
+    padding: 12px; /* Aumentado o padding */
+    text-align: center;
+}
+
+/* Estilização do cabeçalho da tabela */
+th {
+    background-color: #e0e0e0; /* Alterada a cor de fundo do cabeçalho */
+}
+
+/* Estilização dos links */
+a {
+    color: #000000; /* Cor do link mantida */
+    text-decoration: none; /* Removido o sublinhado dos links */
+}
